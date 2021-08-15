@@ -22,11 +22,11 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: '07f3ab39c7edb9c6663d8a96fdb53349',
+  weatherKey: '${{ secrets.OPENWEATHER_API }}',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C',
-  weatherLatitude: '17.286501',
-  weatherLongitude: '74.181427',
+  weatherLatitude: '${{ secrets.LATITUDE }}',
+  weatherLongitude: '${{ secrets.LONGITUDE }}',
   
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
